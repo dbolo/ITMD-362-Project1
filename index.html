@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Invitation</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Event Invitation</h1>
+   
+      <fieldset>
+        <legend><strong>Invitee Info</strong></legend>
+          <p>
+             <input type="text" name="fname" placeholder="First name"><br>
+  <input type="text" name="lname" placeholder="Last name"><br>
+          </p>
+          
+          <p>
+            <label>Phone Number:</label>
+            <input type="text" placeholder="(123) 456-7890">
+          </p>
+          <p>
+            <label>Email Add:</label>
+            <input type="email"placeholder="you@tyz.com">
+          </p>
+          <p>
+            <label>Gender:</label>
+            <input type="radio" name="gender_field" value="male">
+            <label>Male</label>
+            <input type="radio" name="gender_field" value="female">
+            <label>Fmale</label>
+          </p>
+          <p>
+            <label>age:</label>
+            <select name="age_field">
+              <option value="under 18">under 18</option>
+              <option value="18 - 23">18 - 24</option>
+              <option value="25 - 34">25 - 34</option>
+              <option value="35 - 44">35 - 44</option>
+              <option value="45 - 54">45 - 54</option>
+              <option value="55 - 64">55 - 64</option>
+              <option value="65 and above">65 and over</option>
+            </select>
+            
+            <p>
+            <label> Arrival time </label>
+            <input type="text" hour="hour" placeholder="hour">
+  <input type="text" minutes="minutes" placeholder="minutes"><br>
+            
+          </p>
+        </fieldset>
+      <p>
+      </p>
+      <fieldset>
+        <legend><strong>How did you hear about the wedding</strong></legend>
+          <p>
+            
+          </p>
+            <p><input type="checkbox" name="available_field[]" value="Invitation">
+            <label>Invitation</label></p>
+            <p><input type="checkbox" name="available_field[]" value="Word of Mouth">
+            <label>Word of Mouth</label></p>
+            <p><input type="checkbox" name="available_field[]" value="FaceBook post">
+            <label>FaceBook post</label></p>
+            <p><input type="checkbox" name="available_field[]" value="Advertisement">
+            <label>Advertisement</label></p>
+            <p><input type="checkbox" name="available_field[]" value="other">
+            <label>other</label></p
+          <p>
+            <label for="comments_textarea">Comments??:</label>
+          </p>
+          <p>
+            <textarea cols="30" rows="10" id="comments_textarea" name="comments_field" placeholder="Your comments come in here."></textarea>
+          </p>
+        </fieldset>
+        
+        <fieldset>
+        <legend><strong>Select your favorite Dish and Drink </strong></legend>
+          <p>
+            
+          </p>
+            <p><input type="checkbox" name="available_field[]" value="Lasagna">
+            <label>Lasagna</label></p>
+            <p><input type="checkbox" name="available_field[]" value="Fish">
+            <label>Fish</label></p>
+            <p><input type="checkbox" name="available_field[]" value="Fruit salad>
+            <label>Fruit salad</label></p>
+            <p><input type="checkbox" name="available_field[]" value="Fried Rice">
+            <label>Fried Rice</label></p>
+            <p><input type="checkbox" name="available_field[]" value="other">
+            <label>other</label></p
+          <p>
+            <label for="comments_textarea">Comments??:</label>
+          </p>
+          <p>
+            <textarea cols="30" rows="10" id="comments_textarea" name="comments_field" placeholder="Your comments come in here."></textarea>
+          </p>
+        </fieldset>
+        <fieldset>
+        <legend><strong>Select your Drink </strong></legend>
+          <p>
+            
+          </p>
+            <p><input type="checkbox" name="available_field[]" value="Red Wine">
+            <label>Red Wine</label></p>
+            <p><input type="checkbox" name="available_field[]" value="White Wine">
+            <label>White Wine</label></p>
+            <p><input type="checkbox" name="available_field[]" value="Stout>
+            <label>Stout</label></p>
+            <p><input type="checkbox" name="available_field[]" value="Water">
+            <label>Water</label></p>
+            <p><input type="checkbox" name="available_field[]" value="other">
+            <label>other</label></p
+          <p>
+            <label for="comments_textarea">Comments??:</label>
+          </p>
+          <p>
+            <textarea cols="30" rows="10" id="comments_textarea" name="comments_field" placeholder="Your comments come in here."></textarea>
+          </p>
+        </fieldset>
+        
+        <p>
+          <input type="hidden" name="hidden_field" value="Dartor Bolo">
+        </p>
+        <p>
+          <input type="submit" value="Please submit your form">
+        </p>
+    </form>
+</body>
+</html>
