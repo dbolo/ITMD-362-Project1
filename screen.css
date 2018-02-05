@@ -173,9 +173,19 @@ textarea {
 }
 
 /* Begin site styles below */
- 
- 
- p{
+
+input,
+label {
+  display: block;
+}
+input {
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  line-height: 1;
+  padding: 0.7222rem;
+  background-color: lightblue;
+}
   text-align: center;
    padding-left: 100px;
    text-align: left;
