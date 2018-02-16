@@ -34,7 +34,7 @@ else
   alert ('your full name is correct')
 }
 
-if($('#email').val().length <= 0)
+if($('#Email').val().length <= 0)
 {
   alert('#Email is empty!');
   console.log("Someone tried to submit the form!!!");
