@@ -188,8 +188,8 @@ input {
 }
 
 input[type="radio"] {
-  width: 1.636;
-  height: auto;
+  width: 1.636rem;
+  height: 1.636rem;
 }
 
 
