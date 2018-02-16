@@ -31,7 +31,7 @@ if($('#lname').val().length <= 0)
 }
 else
 {
-  your full name is correct
+  alert ('your full name is correct')
 }
   console.log("Someone tried to submit the form!!!");
 });
