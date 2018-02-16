@@ -36,7 +36,7 @@ else
 
 if($('#Email').val().length <= 0)
 {
-  alert('#Email is empty!');
+  alert('#email is empty!');
   console.log("Someone tried to submit the form!!!");
 }
 
