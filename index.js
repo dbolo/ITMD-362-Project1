@@ -25,5 +25,13 @@ $('#event-invitation').on('submit', function(e) { //someone wants to submit
 
 
 
+if($('#lname').val().length <= 0)
+{
+  alert('#lname is empty!');
+}
+else
+{
+  your full name is correct
+}
   console.log("Someone tried to submit the form!!!");
 });
