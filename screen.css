@@ -219,9 +219,7 @@ h1 {
     line-height: 2.444em; /* 44 / 18 = 2.444 */
   } */
 
-  body::before {
-    content: "Hello 640+ px user!"
-  }
+
 
   /* input[type="radio"] {
     width: auto;
