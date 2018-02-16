@@ -16,7 +16,7 @@ $('#event-invitation').on('submit', function(e) { //someone wants to submit
 
   if($('#fname').val().length <= 0)
   {
-    alert('#lname is empty!');
+    alert('#fname is empty!');
   }
   else
   {
