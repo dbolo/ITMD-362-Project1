@@ -187,6 +187,11 @@ input {
   background-color: lightblue;
 }
 
+input[type="radio"] {
+  width: 1.636;
+  height: auto;
+}
+
 
 html {
   font-size: 1.5em; /* 24 / 16 = 1.5 */
@@ -216,6 +221,11 @@ h1 {
 
   body::before {
     content: "Hello 640+ px user!"
+  }
+
+  input[type="radio"] {
+    width: auto;
+    height: auto;
   }
 
   input {
