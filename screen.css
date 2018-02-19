@@ -223,24 +223,24 @@ h1 {
   line-height: 3.0555rem; /* 55 / 18 = 3.0555~ */
   text-align: center;
 }
-#gender {
+.gender {
   display: grid;
   grid-template-rows
   grid-template-columns:
 }
 
-#gender #male {
+.gender .male {
   color: blue;
   grid-row: 2;
 }
 
 
-#gender #female {
+.gender .female {
   color: pink;
   grid-row: 3;
 }
 
-#gender label {
+.gender label {
   grid-column: 2;
 }
 
