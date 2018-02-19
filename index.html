@@ -9,8 +9,9 @@
 <body>
   <h1>Event Invitation</h1>
   <form id="event-invitation" action="#null" method="get">
-      <fieldset>
+
         <legend><strong>Invitee Info</strong></legend>
+          <ul>
           <p>
              <input type="text" id="fname" name="fname" placeholder="First name">
             <input type="text" id="lname" name="lname" placeholder="Last name">
@@ -29,13 +30,15 @@
             <label>Male</label>
             <input type="radio" name="gender_field" value="female">
             <label>Female</label>
-          </p>
-          <p>
-        </fieldset>
+          </ul>
+
         <p>
           <input id="submit" type="submit" value="Please submit your form">
         </p>
     </form>
+    <section id="problems">
+      <ul></ul>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
