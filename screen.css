@@ -231,12 +231,19 @@ h1 {
 
 #gender #male {
   color: blue;
+  grid-row: 2;
 }
 
 
 #gender #female {
   color: pink;
+  grid-row: 3;
 }
+
+#gender label {
+  grid-column: 2;
+}
+
 @media screen and (min-width: 640px) {
 
   /* html {
